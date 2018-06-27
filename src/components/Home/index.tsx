@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { compose } from "recompose";
 
 import { db } from "../../firebase";
-import { withAuthorization } from "../Sessions/withAuthorization";
+import { withAuthorization } from "../Session/withAuthorization";
 import { UserList } from "./UserList";
 
 class HomeComponent extends React.Component {

@@ -4,7 +4,7 @@ import { compose } from "recompose";
 
 import { PasswordChangeForm } from "../PasswordChange";
 import { PasswordForgetForm } from "../PasswordForget/PasswordForgetForm";
-import { withAuthorization } from "../Sessions/withAuthorization";
+import { withAuthorization } from "../Session/withAuthorization";
 
 const AccountComponent = ({ authUser }: any) => (
   <div>

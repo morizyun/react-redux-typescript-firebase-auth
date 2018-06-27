@@ -7,7 +7,7 @@ import { Home } from "../Home";
 import { Landing } from "../Landing";
 import { Navigation } from "../Navigation";
 import { PasswordForget } from "../PasswordForget";
-import { withAuthentication } from "../Sessions/withAuthentication";
+import { withAuthentication } from "../Session/withAuthentication";
 import { SignIn } from "../SignIn";
 import { SignUp } from "../SignUp";
 
