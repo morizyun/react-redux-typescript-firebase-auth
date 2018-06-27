@@ -1,0 +1,33 @@
+{
+  "name": "react-typescript-firebase-auth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "2.16.0",
+    "recompose": "^0.27.1",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "tslint": "tslint --project tsconfig.json",
+    "tslint:fix": "tslint --fix --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.1",
+    "@types/node": "^10.3.5",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-redux": "^6.0.3",
+    "@types/react-router-dom": "^4.2.7",
+    "@types/recompose": "^0.26.1",
+    "typescript": "^2.9.2"
+  }
+}
